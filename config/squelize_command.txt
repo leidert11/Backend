@@ -1,0 +1,10 @@
+Category:
+npx sequelize model:generate --name Category --attributes name:string,description:string,img_url:string,state:integer
+
+Product:
+npx sequelize model:generate --name Product --attributes name:string,features:string,img_url:string,stock:integer,state:integer
+
+
+
+seed:
+npx sequelize-cli seed:generate --name Product
