@@ -5,7 +5,7 @@ Product:
 npx sequelize model:generate --name Product --attributes name:string,features:string,img_url:string,stock:integer,state:integer
 
 User:
-npx sequelize model:generate --name User --attributes name:string,email:string,password:string,state:integer
+npx sequelize model:generate --name User --attributes name:string,rol:string,email:string,password:string,state:integer
 
 seed:
 npx sequelize-cli seed:generate --name Product

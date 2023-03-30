@@ -1,9 +1,9 @@
+const routerx = require("express-promise-router");
 
-const routerx = require('express-promise-router');
-
-const authController = require('../controller/authController');
-
+const authController = require("../controllers/authController");
 
 const router = routerx();
 
-router.post('/login',  authController.login);
+router.post("/login", authController.login);
+
+module.exports = router;

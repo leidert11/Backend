@@ -1,6 +1,4 @@
-
-const routerx = require('express-promise-router');
-const articuloController = require('../controllers/ArticuloController');
-//const auth = require('../middlewares/auth');
+const routerx = require("express-promise-router");
+const articuloController = require("../controllers/ArticuloController");
 
 const router = routerx();

@@ -12,6 +12,9 @@ module.exports = {
       name: {
         type: Sequelize.STRING
       },
+      rol: {
+        type: Sequelize.STRING
+      },
       email: {
         type: Sequelize.STRING
       },
