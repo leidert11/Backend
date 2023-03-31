@@ -5,3 +5,6 @@ npx sequelize model:generate --name name_table --attributes name:string,descript
 
 seed:
 npx sequelize-cli seed:generate --name Product
+
+
+//hola
